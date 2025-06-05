@@ -1,0 +1,37 @@
+.blog-container {
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.blog-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  animation: fadeInDown 1s ease-out;
+}
+
+.blog-card {
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: scale(1.05);
+}
+
+/* Keyframe Animation */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

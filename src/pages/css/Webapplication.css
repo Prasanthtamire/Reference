@@ -1,0 +1,229 @@
+.webapp-container {
+    background: linear-gradient(to bottom, #eff6ff, #ffffff);
+    padding: 4rem 0rem;
+    /* background: rgba(0, 0, 0, 0.6); */
+
+  }
+  
+  .intro-section {
+    /* margin-bottom: 3rem; */
+  }
+  
+  .intro-text .main-heading {
+    font-size: 15px;
+    font-weight: bold;
+    color: #1f2937;
+  }
+  
+  .intro-text .main-description {
+    font-size: 15px;
+    color: #6b7280;
+    max-width: 95%;
+    margin: 8px auto;
+    line-height: 1.6;
+    display: flex;
+   text-align: start;
+  }
+  
+  .gallery-section {
+    padding: 1rem;
+    /* margin-top: -29px; */
+  }
+  
+  .image-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    justify-items: center;
+  }
+  
+  .image-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+    transition: transform 0.3s ease;
+    background: #fff;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+  }
+  
+  .card-overlay {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .card-overlay h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #1e3a8a;
+  }
+  
+  .card-overlay p {
+    font-size: 13px;
+    color: #374151;
+  }
+
+
+
+  /* ---------------------------------------------------
+   1. Container name alignment
+   --------------------------------------------------- */
+/* Your JSX div uses "mobileapp-container" but the file
+   only defines ".webapp-container".  Copy the same look
+   so you don’t have to rename either one. */
+.mobileapp-container {
+  background: linear-gradient(to bottom, #eff6ff, #ffffff);
+  padding: 4rem 0rem;
+}
+
+/* ---------------------------------------------------
+   2. 3-D card variant used in <motion.div className="image-card-3d">
+   --------------------------------------------------- */
+.image-card-3d {
+  /* inherit the look of .image-card */
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform-style: preserve-3d;          /* enables subtle 3-D tilt */
+}
+
+/* React-Framer handles the hover animation, but if JS is disabled
+   this keeps a basic effect.  Totally optional. */
+.image-card-3d:hover {
+  transform: perspective(800px) rotateY(5deg) scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* ---------------------------------------------------
+   3. New “detailed text” block
+   --------------------------------------------------- */
+.detailed-text-section {
+  max-width: auto;       /* keeps lines readable on big screens */
+  margin: 0 auto;
+  padding: 0.5rem 0rem;
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+/* Headings & sub-headings */
+.section-heading {
+  font-size: 18px;      /* ≈28 px */
+  font-weight: 700;
+  color: #1e3a8a;          /* same blue you already use on card titles */
+  /* margin-bottom: 1rem; */
+  text-align: center;
+}
+
+.subheading {
+  font-size: 1.25rem;      /* ≈20 px */
+  font-weight: 600;
+  color: #1f2937;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+
+}
+
+/* Feature list bullets */
+.feature-list {
+  margin-top: 0.75rem;
+  list-style-type: disc;
+  padding-left: 1.25rem;
+}
+
+.feature-list li {
+  font-size: 14px;
+  color: #6b7280;
+  max-width: 95%;
+  margin: 8px auto;
+  line-height: 1.6;
+;
+}
+
+.feature-list li strong {       /* highlight the label part */
+  color: #1e3a8a;
+}
+
+/* Ordered FAQ list */
+.detailed-text-section ol {
+  margin-top: 0.25rem;
+  list-style-type: decimal;
+  padding-left: 4.25rem;
+}
+
+.detailed-text-section ol li {
+  line-height: 1.6;
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+.detailed-text-section ol li strong {
+  color: #1e3a8a;
+}
+
+.main-description2{
+  font-size: 15px;
+  color: #6b7280;
+  max-width: 95%;
+  margin: 8px auto;
+  line-height: 1.6;
+  display: flex;
+ text-align: start;
+ padding-left: 26px;
+}
+
+
+/* ---------------------------------------------------
+   4. Responsive refinement (optional)
+   --------------------------------------------------- */
+@media (max-width: 480px) {
+  .section-heading { font-size: 1.5rem; }
+  .subheading     { font-size: 1.1rem; }
+  .feature-list li,
+  .detailed-text-section ol li { font-size: 0.9rem; }
+}
+
+  
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.subheading {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(270deg, #ff6ec4, #7873f5, #3ee578, #ff6ec4);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fadeSlideIn 1s ease-out forwards, gradientMove 5s ease-in-out infinite;
+  opacity: 0;
+}
+

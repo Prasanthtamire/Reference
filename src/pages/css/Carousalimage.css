@@ -1,0 +1,94 @@
+.carousel-3D-swiper-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #000;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    min-height: 300px;
+    padding: 0 1rem;
+  }
+  
+  .carousel-3D-swiper-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: orangered;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  
+  .carousel-3D-swiper .swiper-slide {
+    position: relative;
+    width: 300px;
+  }
+  
+  .carousel-3D-swiper .image-wrapper {
+    overflow: hidden;
+    max-height: 225px;
+    border-radius: 0px;
+  }
+  
+  .carousel-3D-swiper .image-wrapper img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 225px;
+    border-radius: 2px;
+    -webkit-box-reflect: below 5px -webkit-linear-gradient(bottom, rgba(255, 0, 0, 0.1) 0%, transparent 32px, transparent 100%);
+  }
+  
+  .details {
+    padding: 15px 15px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    background-color: #dddbdb;
+    border-radius: 0 0 10px 10px;
+    color: #131212;
+  }
+  .details:hover {
+    padding: 15px 15px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    background: linear-gradient(135deg, #212d61, #3b4c9a);
+    border-radius: 0 0 10px 10px;
+    color: #ffffff;
+  }
+  .details span {
+    display: block;
+    font-size: 16px;
+    color: #f44336;
+  }
+  
+  .details h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .details p {
+    margin-top: 8px;
+    opacity: 0.7;
+    font-size: 14px;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+  
+  .carousel-3D-swiper-section .swiper-pagination-bullet {
+    margin: 0 4px;
+    width: 14px;
+    height: 14px;
+    z-index: 50;
+    background-color: #ccc;
+  }
+  
+  .carousel-3D-swiper-section .swiper-pagination-bullet-active {
+    background-color: orange;
+  }
+  

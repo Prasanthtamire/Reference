@@ -1,0 +1,129 @@
+#testimonial_area {
+  position: relative;
+  padding: 100px 0;
+  background: #f4f6f9;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+}
+
+.testimonial-box {
+  background: white;
+  padding: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  max-width: 900px;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+}
+
+.testimonial-box img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 3px solid #00bfff;
+}
+
+.circle-container {
+  position: absolute;
+  right: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.circle {
+  border-radius: 50%;
+  border: 1.5px solid #cbbbbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.outer {
+  width: 300px;
+  height: 300px;
+  animation: rotate 30s linear infinite;
+}
+
+.middle {
+  width: 200px;
+  height: 200px;
+  animation: rotateReverse 20s linear infinite;
+}
+
+.inner {
+  width: 100px;
+  height: 100px;
+  animation: rotate 10s linear infinite;
+}
+
+.dot {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle-img {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.dot-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateReverse {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+#testimonial_area {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+.testimonial-box {
+  display: flex;
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  max-width: 900px;
+  display: flex
+;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

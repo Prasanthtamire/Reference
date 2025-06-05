@@ -1,0 +1,74 @@
+.carousel-container {
+    width: 100%;
+    overflow-x: auto;
+    padding: 2rem;
+    background-color: #f0f0f0;
+  }
+  
+  .carousel {
+    display: flex;
+    gap: 1.5rem;
+    width: max-content;
+  }
+  
+  .carousel-card {
+    width: 300px;
+    height: 400px;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+  
+  .carousel-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    border-radius: 16px;
+  }
+  
+  .carousel-card:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .overlay p {
+    margin: 0 0 1rem;
+    font-size: 1rem;
+  }
+  
+  .overlay button {
+    padding: 0.5rem 1rem;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .overlay button:hover {
+    background-color: #e0e0e0;
+  }
+  
