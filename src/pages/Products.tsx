@@ -76,7 +76,7 @@ import eKYCImage from "../projectimages/software-applicatons.jpg";
 import creditBureauImage from "../projectimages/API.jpg";
 import bbpsImage from "../projectimages/bharath bill payment.png";
 import Hrmpayroll from "../projectimages/Hrmpayroll.jpg";
-import HousingFinance from "../projectimages/HousingFinance.jpg";
+import HousingFinance from "../../src/projectimages/Housingfinance.jpg";
 import MicroFinance from "../projectimages/microfinance.jpg";
 import Goldloan from "../projectimages/Goldloan.jpg";
 import ERP from "../projectimages/ERP.png";
