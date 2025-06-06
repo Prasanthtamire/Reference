@@ -69,20 +69,19 @@
 
 
 import { motion } from "framer-motion";
-import { useNavigate } from "react-router-dom";
-import appDevImage from "../projectimages/Vehiclefinance.jpg";
-import globeImage from "../projectimages/software soluions.jpg";
-import eKYCImage from "../projectimages/software-applicatons.jpg";
-import creditBureauImage from "../projectimages/API.jpg";
-import bbpsImage from "../projectimages/bharath bill payment.png";
-import Hrmpayroll from "../projectimages/Hrmpayroll.jpg";
-import HousingFinance from "../../src/projectimages/Housingfinance.jpg";
-import MicroFinance from "../projectimages/microfinance.jpg";
-import Goldloan from "../projectimages/Goldloan.jpg";
-import ERP from "../projectimages/ERP.png";
-import Cooperativesociety from "../projectimages/CooperativeSolutions.jpg";
-import corebanking from "../projectimages/Corebanking.jpg";
-import DigitalVerificationPortal from "../projectimages/Digital verification.jpg";
+import { useNavigate } from "react-router-dom";import HousingFinance from "../../src/projectimages/Housingfinance.jpg";
+import appDevImage from "../../src/projectimages/Vehiclefinance.jpg";
+import globeImage from "../../src/projectimages/software soluions.jpg";
+import eKYCImage from "../../src/projectimages/software-applicatons.jpg";
+import creditBureauImage from "../../src/projectimages/API.jpg";
+import bbpsImage from "../../src/projectimages/bharath bill payment.png";
+import Hrmpayroll from "../../src/projectimages/Hrmpayroll.jpg";
+import MicroFinance from "../../src/projectimages/microfinance.jpg";
+import Goldloan from "../../src/projectimages/Goldloan.jpg";
+import ERP from "../../src/projectimages/ERP.png";
+import Cooperativesociety from "../../src/projectimages/CooperativeSolutions.jpg";
+import corebanking from "../../src/projectimages/Corebanking.jpg";
+import DigitalVerificationPortal from "../../src/projectimages/Digital verification.jpg";
 
 import "../pages/Services.css";
 

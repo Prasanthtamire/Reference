@@ -103,9 +103,9 @@
 
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import eKYCImage from "../projectimages/API.jpg";
-import creditBureauImage from "../projectimages/CreditReport.jpg";
-import bbpsImage from "../projectimages/bharath bill payment.png";
+import eKYCImage from "../../src/projectimages/API.jpg";
+import creditBureauImage from "../../src/projectimages/CreditReport.jpg";
+import bbpsImage from "../../src/projectimages/bharath bill payment.png";
 import "../pages/Services.css";
 
 const ThirdPartyServices = () => {

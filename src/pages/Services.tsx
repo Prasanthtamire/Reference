@@ -112,14 +112,14 @@
 
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import appDevImage from "../projectimages/Application Development.jpg";
-import globeImage from "../projectimages/Mobileappsimage.jpg";
-import eKYCImage from "../projectimages/API.jpg";
-import creditBureauImage from "../projectimages/CreditReport.jpg";
+import appDevImage from "../../src/projectimages/Application Development.jpg";
+import globeImage from "../../src/projectimages/Mobileappsimage.jpg";
+import eKYCImage from "../../src/projectimages/API.jpg";
+// import creditBureauImage from "../projectimages/CreditReport.jpg";
 
-import testingservices from "../projectimages/Testingservices.jpg";
-import  Subscriptionbased from "../projectimages/Subscriptionbasedservices.jpg";
-import  staffagumentation from "../projectimages/staffagumentation.webp";
+import testingservices from "../../src/projectimages/Testingservices.jpg";
+import  Subscriptionbased from "../../src/projectimages/Subscriptionbasedservices.jpg";
+import  staffagumentation from "../../src/projectimages/staffagumentation.webp";
 
 
 import "../pages/Services.css";

@@ -1,20 +1,20 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import eKYCImage from "../projectimages/API.jpg";
-import creditBureauImage from "../projectimages/CreditReport.jpg";
-import bbpsImage from "../projectimages/bharath bill payment.png";
-import ATM from "../projectimages/AtmVanservices.jpg";
-import KIOSK from "../projectimages/Kisok.jpg";
-import ATM1 from "../projectimages/ATM.jpg";
-import Payouts from "../projectimages/Payouts.jpg";
-import Paymentgateway from "../projectimages/Payment_gateway.png";
-import POS from "../projectimages/POS.jpg";
-import MicroATM from "../projectimages/MicroATM.jpg";
-import VideoKYC from "../projectimages/Videokyc.png";
-import ATMLock from "../projectimages/ATMLock.png";
-import Sign from "../projectimages/Sign.jpg";
-import HumanAtm from "../projectimages/HumanAtm.jpg";
-import Reconcilation from "../projectimages/Reconsilation.webp";
+// import eKYCImage from "../projectimages/API.jpg";
+import creditBureauImage from "../../src/projectimages/CreditReport.jpg";
+import bbpsImage from "../../src/projectimages/bharath bill payment.png";
+import ATM from "../../src/projectimages/AtmVanservices.jpg";
+import KIOSK from "../../src/projectimages/Kisok.jpg";
+import ATM1 from "../../src/projectimages/ATM.jpg";
+import Payouts from "../../src/projectimages/Payouts.jpg";
+import Paymentgateway from "../../src/projectimages/Payment_gateway.png";
+import POS from "../../src/projectimages/POS.jpg";
+import MicroATM from "../../src/projectimages/MicroATM.jpg";
+import VideoKYC from "../../src/projectimages/Videokyc.png";
+import ATMLock from "../../src/projectimages/ATMLock.png";
+import Sign from "../../src/projectimages/Sign.jpg";
+import HumanAtm from "../../src/projectimages/HumanAtm.jpg";
+import Reconcilation from "../../src/projectimages/Reconsilation.webp";
 
 import "../pages/Services.css";
 

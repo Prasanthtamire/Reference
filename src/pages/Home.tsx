@@ -6,38 +6,36 @@ import styled from "styled-components";
 import { ChevronRight, ChevronLeft,ChevronDown, Star,Quote,} from "lucide-react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import Harish from "../projectimages/harishraghu.jpg";
-import Mohammad from "../projectimages/Mohammad.jpg";
-import Amith from "../projectimages/Amith.jpg";
-import adventureImg from "../projectimages/Innovative Solutions.jpg";
-import natureImg from "../projectimages/team.jpg";
-import techImg from "../projectimages/Moderntechnology.jpg";
-import artImg from "../projectimages/ExpertTeam.png";
-import annapurnaImg from "../projectimages/Clientimages/Annapuran2.jpg";
-import KarnatakaBan from "../projectimages/Clientimages/KarnatakaBan.jpg";
-import AxisBank from "../projectimages/Clientimages/AxisBank.png";
+
+import adventureImg from "../../src/projectimages/Innovative Solutions.jpg";
+import natureImg from "../../src/projectimages/team.jpg";
+import techImg from "../../src/projectimages/Moderntechnology.jpg";
+import artImg from "../../src/projectimages/ExpertTeam.png";
+import annapurnaImg from "../../src/projectimages/Clientimages/Annapuran2.jpg";
+import KarnatakaBan from "../../src/projectimages/Clientimages/KarnatakaBan.jpg";
+import AxisBank from "../../src/projectimages/Clientimages/AxisBank.png";
 import FederalBank from "../projectimages/Clientimages/FederalBank.png";
-import Fincare from "../projectimages/Clientimages/Fincare.jpg";
-import HDB from "../projectimages/Clientimages/HDB.jpg";
-import Pirimal from "../projectimages/Clientimages/Pirimal.jpg";
-import SubK from "../projectimages/Clientimages/SubK.png";
-import EFL from "../projectimages/Clientimages/EFL.png";
-import UGRO from "../projectimages/Clientimages/UGRO.jpg";
-import APCOB from "../projectimages/Clientimages/APCOB.jpg";
-import Share from "../projectimages/Clientimages/share.jpg";
-import Kaebaku from "../projectimages/Clientimages/Kaebaku.jpeg";
-import krishnadistrict from "../projectimages/Clientimages/krishnadistrict.png";
+import Fincare from "../../src/projectimages/Clientimages/Fincare.jpg";
+import HDB from "../../src/projectimages/Clientimages/HDB.jpg";
+import Pirimal from "../../src/projectimages/Clientimages/Pirimal.jpg";
+import SubK from "../../src/projectimages/Clientimages/SubK.png";
+import EFL from "../../src/projectimages/Clientimages/EFL.png";
+import UGRO from "../../src/projectimages/Clientimages/UGRO.jpg";
+import APCOB from "../../src/projectimages/Clientimages/APCOB.jpg";
+import Share from "../../src/projectimages/Clientimages/share.jpg";
+import Kaebaku from "../../src/projectimages/Clientimages/Kaebaku.jpeg";
+import krishnadistrict from "../../src/projectimages/Clientimages/krishnadistrict.png";
 
 
 // import Mahashakti from "../projectimages/Clientimages/Mahashakti.jpg";
 // import AAdhikar from "../projectimages/Clientimages/AAdhikar.jpg";
-import Minland from "../projectimages/Clientimages/Minland.jpg";
-import NCML from "../projectimages/Clientimages/NCML.jpg";
-import Spandana from "../projectimages/Clientimages/Spandana.jpg";
-import ISO270012013 from "../projectimages/Certifications/ISO 27001 2013.jpg";
-import ISOIEC2000012018 from "../projectimages/Certifications/ISO IEC 20000-1 2018.jpg";
-import ISO from "../projectimages/Certifications/ISO.jpg";
-import CMMI from "../projectimages/Certifications/CMMI.jpg";
+import Minland from "../../src/projectimages/Clientimages/Minland.jpg";
+import NCML from "../../src/projectimages/Clientimages/NCML.jpg";
+import Spandana from "../../src/projectimages/Clientimages/Spandana.jpg";
+import ISO270012013 from "../../src/projectimages/Certifications/ISO 27001 2013.jpg";
+import ISOIEC2000012018 from "../../src/projectimages/Certifications/ISO IEC 20000-1 2018.jpg";
+import ISO from "../../src/projectimages/Certifications/ISO.jpg";
+import CMMI from "../../src/projectimages/Certifications/CMMI.jpg";
 
 
 
@@ -50,9 +48,9 @@ import "./css/Testimonials.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-import Image1 from "../projectimages/harishraghu.jpg";
-import Image2 from "../projectimages/Mohammad.jpg";
-import Image3 from "../projectimages/Amith.jpg";
+import Image1 from "../../src/projectimages/harishraghu.jpg";
+import Image2 from "../../src/projectimages/Mohammad.jpg";
+import Image3 from "../../src/projectimages/Amith.jpg";
 
 
 // Styled Components
