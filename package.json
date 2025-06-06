@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "vite start",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -17,10 +16,8 @@
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@mui/icons-material": "^7.1.1",
-    "@mui/material": "^7.1.1",
+    "@mui/material": "^6.4.7",
     "@react-spring/web": "^9.7.5",
-     "@react-three/fiber": "8.13.5",
-  "@react-spring/three": "9.6.1",
     "@tabler/icons-react": "^3.31.0",
     "bootstrap": "^5.3.6",
     "clsx": "^2.1.1",
@@ -31,10 +28,12 @@
     "lucide-react": "^0.344.0",
     "mdb-react-ui-kit": "^9.0.0",
     "motion": "^12.7.4",
+    "react": "^18.3.1",
     "react-bootstrap": "^2.10.9",
+    "react-dom": "^18.3.1",
     "react-fast-marquee": "^1.6.5",
     "react-icons": "^5.5.0",
-    "react-leaflet": "^4.2.1",
+    "react-leaflet": "^5.0.0",
     "react-router-dom": "^6.22.2",
     "react-slick": "^0.30.3",
     "react-spring": "^9.7.5",
@@ -42,10 +41,8 @@
     "slick-carousel": "^1.8.1",
     "styled-components": "^6.1.15",
     "swiper": "^11.2.6",
-    "tailwind-merge": "^3.2.0",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
-     },
+    "tailwind-merge": "^3.2.0"
+  },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
     "@types/react": "^18.3.5",
@@ -61,12 +58,5 @@
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.3.0",
     "vite": "^5.4.2"
-  },
-  
-"overrides": {
-  "@react-three/fiber": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
   }
-}
 }
