@@ -1,16 +1,16 @@
 import { Users2, Trophy, Target, Zap } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
-import pvnPratap from '../../src/projectimages/pvn_pratap.png';
-import rojaRani from '../../src/projectimages/rojarani.png';
-import ksMadhav from '../../src/projectimages/ks_madhav.png';
-import ramusir from '../../src/projectimages/ramusir.jpg';
-import suneethamam from '../../src/projectimages/suneethamam.jpg';
-import rajusir from '../../src/projectimages/rajusir.jpg';
-import Mahesh from '../../src/projectimages/Womendummy.jpg';
-import Harikrishna from '../../src/projectimages/Harikrishna.jpeg';
-import Praveen from '../../src/projectimages/Praveen Kumar .jpeg';
-import SatyaKumar from '../../src/projectimages/SatyaKumar.jpeg';
+import pvnPratap from '../projectimages/pvn_pratap.png';
+import rojaRani from '../projectimages/rojarani.png';
+import ksMadhav from '../projectimages/ks_madhav.png';
+import ramusir from '../projectimages/ramusir.jpg';
+import suneethamam from '../projectimages/suneethamam.jpg';
+import rajusir from '../projectimages/rajusir.jpg';
+import Mahesh from '../projectimages/Womendummy.jpg';
+import Harikrishna from '../projectimages/Harikrishna.jpeg';
+import Praveen from '../projectimages/Praveen Kumar .jpeg';
+import SatyaKumar from '../projectimages/SatyaKumar.jpeg';
 
 import { FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa"; // Import social media icons
 

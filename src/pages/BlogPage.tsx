@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import "../pages/css/BlogPage.css";
-import adventureImg from "../../src/projectimages/Innovative Solutions.jpg";
-import natureImg from "../../src/projectimages/team.jpg";
-import techImg from "../../src/projectimages/Moderntechnology.jpg";
+import adventureImg from "../projectimages/Innovative Solutions.jpg";
+import natureImg from "../projectimages/team.jpg";
+import techImg from "../projectimages/Moderntechnology.jpg";
 const blogs = [
   {
     id: 1,
