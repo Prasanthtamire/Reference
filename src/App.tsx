@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import ThirdpartyServices from './pages/ThirdpartyServices.js';
 import ThirdpartyProducts from './pages/ThirdpartyProducts.js';
+import SalesPage from './pages/Sales.js';
 
 import About from './pages/About';
 import Products from './pages/Products';
@@ -72,11 +73,13 @@ function App() {
           <Route path="/careers" element={<Careers />} />
           <Route path="/blogs" element={<Blogs />} />
 
-          <Route path="/contact" element={<Contact />} />
           <Route path="/webdevelopment" element={<WebDevelopment />} />
           <Route path="/our-services" element={<Services />} /> 
-          <Route path="/our-Products" element={<Products />} />
           <Route path="/services/ThirdpartyServices" element={<ThirdpartyServices />} />
+          <Route path="/our-Products" element={<Products />} />
+          <Route path="/products/third-party" element={<ThirdpartyProducts />} />
+          <Route path="/contact/office" element={<Contact />} />
+          <Route path="/Contact/sales_team" element={<SalesPage />} />
 
 
           <Route path="/services/InnovativeSoutions" element={<InnovativeSoutions />} />
@@ -120,13 +123,7 @@ function App() {
           <Route path="/Thirdpartyservices/VideoKyc" element={<VideoKyc/>} />
           <Route path="/Thirdpartyservices/Reconciliation" element={<Reconciliation/>} />
           <Route path="/Thirdpartyservices/HumanATM" element={<HumanATM/>} />
-
           <Route path="/Thirdpartyservices/StaffAugmentation" element={<StaffAugmentation/>} />
-
-
-
-
-          <Route path="/products/third-party" element={<ThirdpartyProducts />} />
 
 
           {/* <Route path="/Testinomial" element={<Testinomial />} /> */}

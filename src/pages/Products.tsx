@@ -74,7 +74,7 @@ import appDevImage from "../projectimages/Vehiclefinance.jpg";
 import globeImage from "../projectimages/software soluions.jpg";
 import eKYCImage from "../projectimages/software-applicatons.jpg";
 import creditBureauImage from "../projectimages/API.jpg";
-// import bbpsImage from "../projectimages/bharath bill payment.png";
+ 
 import Hrmpayroll from "../projectimages/Hrmpayroll.jpg";
 import HousingFinance from "../projectimages/Housingfinance.jpg";
 import MicroFinance from "../projectimages/microfinance.jpg";

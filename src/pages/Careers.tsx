@@ -4,7 +4,7 @@ import { Briefcase, GraduationCap, Heart, Users } from 'lucide-react';
 const Careers = () => {
   return (
     <div className="min-h-screen pt-16">
-      <section className="py-20 bg-gradient-to-b from-[#c5cfdd] to-white">
+      <section className="mb-2 bg-gradient-to-b from-[#c5cfdd] to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

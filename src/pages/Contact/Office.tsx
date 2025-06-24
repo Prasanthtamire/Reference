@@ -5,7 +5,7 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import { useForm, ValidationError } from '@formspree/react';
 
-const Contact = () => {
+const Office = () => {
   const [state, handleSubmit] = useForm("mwpbpvep");
 
   const [formData, setFormData] = useState({
@@ -192,44 +192,11 @@ const Contact = () => {
             </motion.div>
           </div>
 
-          {/* Google Maps & Directions */}
-          <div className="mt-3">
-            <div className="mb-2 flex items-center gap-2">
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/684/684908.png"
-                alt="Directions Icon"
-                style={{ width: "20px", height: "20px" }}
-              />
-              <a
-                href="https://www.google.com/maps/dir/?api=1&destination=17.4726,78.4177"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  fontSize: "16px",
-                  color: "#1d4ed8",
-                  fontWeight: "500",
-                  textDecoration: "underline"
-                }}
-              >
-                Get Directions
-              </a>
-            </div>
-
-            <iframe
-              title="Jayam Solutions Location"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15224.28814280283!2d78.4177!3d17.4726!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDI4JzIxLjQiTiA3OMKwMjUnMDMuOCJF!5e0!3m2!1sen!2sin!4v1717433320000!5m2!1sen!2sin"
-              width="100%"
-              height="250"
-              style={{ border: 0, borderRadius: "12px" }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
+        
         </div>
       </section>
     </div>
   );
 };
 
-export default Contact;
+export default Office;

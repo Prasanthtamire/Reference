@@ -37,7 +37,13 @@ const Navbar = () => {
     },
     { path: '/careers', label: 'Careers' },
     { path: '/blogs', label: 'Blogs' },
-    { path: '/contact', label: 'Contact' },
+    {
+      label: 'Contact',
+     dropdown: [
+              { path: '/contact/office', label: 'Office' },
+              { path: '/contact/sales_team', label: 'Sales Team' },
+      ],
+      },
   ];
 
   return (

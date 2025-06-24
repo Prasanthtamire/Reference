@@ -29,13 +29,13 @@ const blogs = [
 
 const BlogPage = () => {
   return (
-    <div className="min-h-screen bg-gray-900 text-white p-6">
+    <div className="min-h-screen bg-gray-900 text-white p-6 py-10 bg-gradient-to-b from-[#c5cfdd] to-white">
       {/* Title Animation */}
       <motion.h1
         initial={{ y: -50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="text-4xl font-bold text-center mb-10"
+        className="text-4xl font-bold text-center mb-2 mt-10"
       >
         Tech Insights & Blogs
       </motion.h1>
@@ -56,7 +56,7 @@ const BlogPage = () => {
               className="w-full h-48 object-cover"
             />
             <div className="p-6">
-              <h2 className="text-2xl font-semibold">{blog.title}</h2>
+              <h2 className="text-1xl font-semibold animate-pulse">{blog.title}</h2>
               <p className="text-gray-400 mt-2">{blog.description}</p>
             </div>
           </motion.div>
