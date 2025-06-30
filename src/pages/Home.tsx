@@ -563,7 +563,7 @@ const Home = () => {
         </div>
       </section>
 
-    <section
+    {/* <section
   id="testimonial_area"
   style={{
     background: "linear-gradient(to bottom, #c5cfdd, #ffffff)",
@@ -630,7 +630,99 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
+    <section
+  id="testimonial_area"
+  style={{
+    background: "linear-gradient(to bottom, #c5cfdd, #ffffff)",
+    padding: "50px 0",
+    color: "#000"
+  }}
+>
+  <div className="container">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <motion.div
+        initial={{ y: -50, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="text-center mb-5"
+      >
+        <h2
+          className="text-3xl font-bold text-gray-900 animate-pulse"
+          style={{ fontSize: "18px" }}
+        >
+          What Our Clients Say
+        </h2>
+        <p
+          className="text-xl text-gray-500 animate-pulse"
+          style={{ fontSize: "14px" }}
+        >
+          Trusted by leading companies worldwide
+        </p>
+      </motion.div>
+    </div>
+
+    <div
+      id="testimonialCarousel"
+      className="carousel slide"
+      data-bs-ride="carousel"
+      data-bs-touch="true"
+    >
+      <div className="carousel-inner">
+        {testimonials.map((item, index) => (
+          <div
+            className={`carousel-item ${index === 0 ? "active" : ""}`}
+            key={index}
+          >
+            <div className="testimonial-box mx-auto text-center">
+              <img src={item.image} alt={item.name} className="testimonial-img" />
+              <h5>{item.name}</h5>
+              <p className="text-muted">{item.role}</p>
+              <p className="testimonial-text">{item.text}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <button
+        className="carousel-control-prev"
+        type="button"
+        data-bs-target="#testimonialCarousel"
+        data-bs-slide="prev"
+      >
+        <span className="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        className="carousel-control-next"
+        type="button"
+        data-bs-target="#testimonialCarousel"
+        data-bs-slide="next"
+      >
+        <span className="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+
+  {/* Circular Image Section */}
+  <div className="circle-container">
+    <div className="circle outer">
+      <div className="dot">
+        <img src={Image1} alt="circle" className="dot-img" />
+      </div>
+      <div className="circle middle">
+        <div className="dot">
+          <img src={Image2} alt="circle" className="dot-img" />
+        </div>
+        <div className="circle inner">
+          <div className="dot">
+            <img src={Image3} alt="circle" className="dot-img" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
       {/* Our Clients  marquee Section */}
     
       <div className="marquee-section"   >
