@@ -1,0 +1,30 @@
+/* .contact-banner {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  object-fit: cover;
+  display: block;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .contact-banner {
+    max-height: 300px;
+  }
+} */
+/* .contact-banner {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  display: block;
+} */
+.wf-wrapper * {
+    box-sizing: border-box;
+ font-family: 'Poppins', sans-serif !important;
+}
+/* @media (max-width: 768px) {
+  .contact-banner {
+    max-height: 300px;
+  }
+} */

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import { useForm, ValidationError } from '@formspree/react';
-
+import '../pages/css/Salescontact.css';
 const Contact = () => {
   const [state, handleSubmit] = useForm("mwpbpvep");
 
@@ -27,8 +27,8 @@ const Contact = () => {
   <img
     src="../../src/projectimages/Contactpage.jpg" // Replace this with your actual image path
     alt="Contact Banner"
-    className="w-full max-h-64  shadow-md"
-    style={{ marginTop: "41px",height:"100vh", }}
+    className="w-full max-h-64  shadow-md "
+    style={{ marginTop: "0px",height:"100vh", }}
 
   />
 </div>

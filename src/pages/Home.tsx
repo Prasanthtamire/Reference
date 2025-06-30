@@ -1,14 +1,11 @@
 import { useState, useEffect } from "react";
-import React from "react";
 import { useNavigate } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 import styled from "styled-components";
-import { ChevronRight, ChevronLeft,ChevronDown, Star,Quote,} from "lucide-react";
+import { ChevronRight, ChevronLeft,ChevronDown,} from "lucide-react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import Harish from "../projectimages/harishraghu.jpg";
-import Mohammad from "../projectimages/Mohammad.jpg";
-import Amith from "../projectimages/Amith.jpg";
+
 import adventureImg from "../projectimages/Innovative Solutions.jpg";
 import natureImg from "../projectimages/team.jpg";
 import techImg from "../projectimages/Moderntechnology.jpg";
@@ -27,10 +24,6 @@ import APCOB from "../projectimages/Clientimages/APCOB.jpg";
 import Share from "../projectimages/Clientimages/share.jpg";
 import Kaebaku from "../projectimages/Clientimages/Kaebaku.jpeg";
 import krishnadistrict from "../projectimages/Clientimages/krishnadistrict.png";
-
-
-// import Mahashakti from "../projectimages/Clientimages/Mahashakti.jpg";
-// import AAdhikar from "../projectimages/Clientimages/AAdhikar.jpg";
 import Minland from "../projectimages/Clientimages/Minland.jpg";
 import NCML from "../projectimages/Clientimages/NCML.jpg";
 import Spandana from "../projectimages/Clientimages/Spandana.jpg";
@@ -417,8 +410,8 @@ const Home = () => {
               </h1>
               <p className="text-xl md:text-2xl mb-8  animate-pulse">Transform Your Business with Jayam Solutions</p>
               <Link
-                to="/contact"
-                className="inline-flex items-center px-8 py-3 border-1 bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105"
+                to="/contact/office"
+                className="inline-flex items-center px-8 py-3 border-1 bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-3 rounded-full text-sm  hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105"
               >
                 Get Started
                 <ChevronRight className="ml-2 h-5 w-5" />
@@ -570,68 +563,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      {/* <section className=" bg-gray-50  bg-gradient-to-b from-blue-50 to-blue"> */}
-      {/* <section className="py-3 bg-gradient-to-b from-[#c5cfdd] to-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-           initial={{ y: -50, opacity: 0 }} // Start from above with opacity 0
-           animate={{ y: 0, opacity: 1 }}  // Slide down into position
-           transition={{ duration: 0.6, ease: "easeOut" }} // Smooth transition
-            className="text-center mb-5"
-          >
-            <h2
-              className="text-3xl font-bold text-gray-900 animate-pulse"
-              style={{ fontSize: "18px" }}
-            > 
-              What Our Clients Say
-            </h2>
-            <p className=" text-xl text-gray-500 animate-pulse" style={{ fontSize: "14px" }}>
-              Trusted by leading companies worldwide
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <motion.div
-                key={testimonial.name}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.1 }}
-                className="bg-white p-6 rounded-xl shadow-lg"
-              >
-                <div className="flex items-center mb-4">
-                  <img
-                    src={testimonial.image}
-                    alt={testimonial.name}
-                    className="h-12 w-12 rounded-full object-cover"
-                  />
-                  <div className="ml-4">
-                    <h4 className="text-lg font-semibold text-gray-900">
-                      {testimonial.name}
-                    </h4>
-                    <p className="text-gray-600">{testimonial.position}</p>
-                  </div>
-                </div>
-                <div className="flex text-yellow-400 mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="h-5 w-5 fill-current" />
-                  ))}
-                </div>
-                <div className="relative">
-                  <Quote className="h-8 w-8 text-blue-100 absolute -top-4 -left-4" />
-                  <p
-                    className="text-gray-600 relative z-10"
-                    style={{ fontSize: "12px" }}
-                  >
-                    {testimonial.quote}
-                  </p>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section> */}
     <section
   id="testimonial_area"
   style={{
