@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import { useForm, ValidationError } from '@formspree/react';
+import contactBanner from '../projectimages/Contactpage.jpg';
+
 import '../pages/css/Salescontact.css';
 const Contact = () => {
   const [state, handleSubmit] = useForm("mwpbpvep");
@@ -24,13 +26,12 @@ const Contact = () => {
     <div className="min-h-screen ">
       <section className="py-4 bg-gradient-to-b from-[#c5cfdd] to-white">
         <div className="flex justify-center mb-1 ">
-  <img
-    src="../../src/projectimages/Contactpage.jpg" // Replace this with your actual image path
-    alt="Contact Banner"
-    className="w-full max-h-64  shadow-md "
-    style={{ marginTop: "0px",height:"100vh", }}
-
-  />
+    <img
+        src={contactBanner}
+        alt="Contact Sales"
+        className="w-full max-h-64 shadow-md"
+        style={{  height:"100vh",  }} // Adjusted from 100vh to avoid pushing form down
+      />
 </div>
 <p className="subheading" style={{ marginBottom:"5px" }}>Ready to get started with Jayam Solutions ?</p>
 
