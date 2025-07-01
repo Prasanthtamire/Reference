@@ -8,6 +8,8 @@ import Services from './pages/Services';
 import ThirdpartyServices from './pages/ThirdpartyServices.js';
 import ThirdpartyProducts from './pages/ThirdpartyProducts.js';
 import SalesPage from './pages/Sales.js';
+import ATMSupport from './pages/ATMSupport.js';
+
 
 import About from './pages/About';
 import Products from './pages/Products';
@@ -53,8 +55,6 @@ import OtcAtmLockSolution from './pages/Thirdpartyservices/PertoAtmServices .js'
 import VideoKyc from './pages/Thirdpartyservices/VideoKyc .js'
 import Reconciliation from './pages/Thirdpartyservices/Reconciliation.js'
 import HumanATM from './pages/Thirdpartyservices/HumanAtm.js'
-
-
 import StaffAugmentation from './pages/Thirdpartyservices/StaffAugmentation.js'
 
 
@@ -80,6 +80,8 @@ function App() {
           <Route path="/products/third-party" element={<ThirdpartyProducts />} />
           <Route path="/contact/office" element={<Contact />} />
           <Route path="/Contact/sales_team" element={<SalesPage />} />
+          <Route path="/Contact/Atmsupport" element={<ATMSupport />} />
+
 
 
           <Route path="/services/InnovativeSoutions" element={<InnovativeSoutions />} />

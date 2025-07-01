@@ -40,8 +40,10 @@ const Navbar = () => {
     {
       label: 'Contact',
      dropdown: [
-              { path: '/contact/office', label: 'Office' },
-              { path: '/contact/sales_team', label: 'Sales Team' },
+                { path: '/contact/office', label: 'Office' },
+                { path: '/contact/sales_team', label: 'Sales Inquiry' },
+                { path: '/Contact/Atmsupport', label: 'ATM Support' },
+
       ],
       },
   ];
